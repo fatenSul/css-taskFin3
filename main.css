@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear:both
+}
+
+
+.container{
+    width:80%;
+    margin:auto;
+}
+.navbar{
+    /*background-color:rgb(203, 134, 49);*/
+    background-color: rgb(80, 80, 80);
+}
+
+.logo{
+    float: left;
+    margin-top: 5px;
+
+}
+.logo img{
+    width:50%;
+}
+
+
+.navbar .list{
+    float:right;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+.list ul a{
+    color: white;
+    text-decoration: none; 
+    margin-right: 16px; /* amount of space between the words*/
+    text-transform: uppercase;
+}
+
+.portofolio_items a{
+    text-decoration: none; 
+
+}
+
+.list ul li{
+    float: left ;
+
+}
+
+
+.Portfolio{
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 80px 80px;
+
+}
+.product{
+    padding: 30px;
+}
+
+.Portfolio img {
+    width: 350px;
+    height: 350px;
+    display: block;
+}
+
+
+.product1{
+    background-color: gray;
+}
+.product2{
+    background-color:grey;
+
+}
+.product3{
+    background-color:grey;
+
+}
+.product4{
+    background-color:grey;
+
+}
+.product5{
+    background-color:grey;
+
+}
+.product6{
+    background-color:grey;
+
+}
